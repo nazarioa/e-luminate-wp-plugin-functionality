@@ -1,0 +1,11 @@
+{
+    "name": "nazarioa/eluminate-youtube-gallery",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Nazario A. Ayala",
+            "email": "nazario@niztech.com"
+        }
+    ],
+    "require": {}
+}
