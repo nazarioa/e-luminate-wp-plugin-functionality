@@ -10,7 +10,7 @@
  * @package           EluminateFunctionality
  *
  * @wordpress-plugin
- * Plugin Name: E-luminate Youtube Gallery
+ * Plugin Name: E-luminate Functionality
  * Description: Leverages youtube-embed-plus code to create a simple way to embed youtube videos
  * Version: 1.0.0
  * Author: Niztech
