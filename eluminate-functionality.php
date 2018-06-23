@@ -20,9 +20,12 @@
  * Requires License:    no
  */
 
+/**
+ * Register Post types used by this theme.
+ */
 if ( ! function_exists( 'register_eluminate_post_types' ) ) {
 
-// Register Custom Post Type
+// Register video_series Post Type
 	function register_eluminate_post_types() {
 
 		$labels = array(
@@ -77,12 +80,13 @@ if ( ! function_exists( 'register_eluminate_post_types' ) ) {
 		register_post_type( 'video_series', $args );
 
 	}
-
 	add_action( 'init', 'register_eluminate_post_types', 0 );
-
 }
 
 
+/**
+ * Removes comments from the post types we created.
+ */
 if ( ! function_exists( 'remove_eluminate_custom_post_comment' ) ) {
 	function remove_eluminate_custom_post_comment() {
 		remove_post_type_support( 'video_series', 'comments' );
